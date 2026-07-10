@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "start": "ts-node Chapter_01_Basics_JavaScript/Hello.ts",
+    "ts-node": "ts-node",
+    "tsc": "tsc",
+    "start": "npm run ts-node -- Chapter_01_Basics_JavaScript/Hello.ts",
     "test": "npx playwright test",
     "install-browsers": "npx playwright install"
   },
